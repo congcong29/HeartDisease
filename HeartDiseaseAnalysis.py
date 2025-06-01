@@ -1,7 +1,7 @@
 # Import necessary libraries
 # Import necessary libraries
-import os  # 新增导入 os
-import tempfile  # 新增导入 tempfile
+import os  
+import tempfile  
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -13,10 +13,10 @@ from imblearn.over_sampling import SMOTE
 import xgboost as xgb
 import shap
 import warnings
-import joblib  # joblib 必须在这里导入
+import joblib  # joblib must be imported here
 warnings.filterwarnings('ignore')
 
-# 设置 joblib 临时目录到系统的临时文件夹，避免非 ASCII 路径问题
+# Set the joblib temporary directory to the system's temporary folder to avoid non-ASCII path issues
 joblib_temp_dir = tempfile.gettempdir()
 os.environ['JOBLIB_TEMP_FOLDER'] = joblib_temp_dir
 class HeartDiseaseAnalysis:
@@ -148,7 +148,7 @@ class HeartDiseaseAnalysis:
             n_jobs=-1,
             verbose=1
         )
-        # 设置 joblib 临时目录到系统的临时文件夹，避免非 ASCII 路径问题
+        # Set the joblib temporary directory to the system's temporary folder to avoid non-ASCII path issues
         joblib_temp_dir = tempfile.gettempdir()
         os.environ['JOBLIB_TEMP_FOLDER'] = joblib_temp_dir
 
