@@ -44,8 +44,7 @@ Finally, we created 4 new features, as shown in table 3, to capture additional i
 
 ## Streamlit Deployment
 <img width="180" alt="image" src="https://github.com/user-attachments/assets/196859f9-fa97-45f8-8bab-714884aee16d" />
-\\
-\\
+
 <img width="327" alt="image" src="https://github.com/user-attachments/assets/a9441534-d895-4c36-9fd7-e356c8e10a7f" />
 
 
